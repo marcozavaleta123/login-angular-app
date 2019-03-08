@@ -1,0 +1,24 @@
+<h2>
+    BIENVENIDO AL SISTEMA
+</h2>
+
+<table >
+    <tr>
+      <th>Nombres :  </th>
+      <td>{{nombresUser}} </td> 
+    </tr>
+  
+    <tr>
+      <th>Cargo :  </th>
+      <td>{{cargoUser}}</td> 
+    </tr>
+
+    <tr>
+        <th>Email :  </th>
+        <td>{{emailUser}}</td> 
+      </tr>
+  </table>
+
+  <br/>
+
+  <button (click)="this.cerrarSesion()" >CERRAR SESIÓN</button>
